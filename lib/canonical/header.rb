@@ -1,4 +1,4 @@
-require "canonical/header/version"
+require 'canonical/header/version'
 
 module Canonical
   module Header

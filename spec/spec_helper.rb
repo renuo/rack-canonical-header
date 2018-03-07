@@ -1,5 +1,4 @@
 require 'bundler/setup'
-require 'canonical/header'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

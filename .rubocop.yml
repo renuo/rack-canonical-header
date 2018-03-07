@@ -19,6 +19,7 @@ Metrics/BlockLength:
 Style/FileName:
   Exclude:
   - 'Gemfile'
+  - 'canonical-header.gemspec'
 
 Style/FrozenStringLiteralComment:
   Enabled: false

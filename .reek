@@ -3,7 +3,7 @@ Attribute:
   enabled: false
 NilCheck:
   enabled: false
-"lib/canonical":
+"lib/rack-canonical-header":
   IrresponsibleModule:
     enabled: false
   NestedIterators:

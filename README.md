@@ -21,11 +21,12 @@ gem 'rack-canonical-header'
 
 And then execute `bundle install`
 
-
 ## Usage
 
 Update your application config file and set the `CANONICAL_HOST` env variable
 
 ### Non-Rails frameworks
+
 If you're using a framework which uses Rack (like Hanami)
-you have to require and insert the middleware `Canonical::Middleware` manually into the rack stack.
+you have to require and insert the middleware
+`Canonical::Middleware` manually into the rack stack.

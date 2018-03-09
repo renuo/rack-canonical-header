@@ -1,4 +1,4 @@
 #!/bin/sh
 
 bin/fastcheck
-rake spec
+bundle exec rake spec

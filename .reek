@@ -12,3 +12,5 @@ NilCheck:
     enabled: false
   InstanceVariableAssumption:
     enabled: false
+exclude_paths:
+  - 'vendor/'

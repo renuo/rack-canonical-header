@@ -33,3 +33,4 @@ AllCops:
     - '**/Rakefile'
   Exclude:
     - 'bin/**/*'
+    - 'vendor/**/*'

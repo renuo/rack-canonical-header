@@ -8,16 +8,15 @@ then
 fi
 
 echo "Executing mdl"
-if ! bundle exec mdl .
+if ! bundle exec mdl ./*.md
 then
   echo "mdl detected issues!"
   exit 1
 fi
 
 echo "Executing reek"
-if ! bundle exec reek . 
+if ! bundle exec reek .
 then
   echo "reek detected issues!"
   exit 1
 fi
-

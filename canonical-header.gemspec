@@ -1,11 +1,10 @@
-
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'canonical/header/version'
+require 'canonical/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'canonical-header'
-  spec.version       = Canonical::Header::VERSION
+  spec.version       = Canonical::VERSION
   spec.authors       = ['Lukas Bischof']
   spec.email         = ['lukas.bischof@renuo.ch']
 
@@ -22,9 +21,7 @@ Gem::Specification.new do |spec|
       'public gem pushes.'
   end
 
-  spec.files = `git ls-files -z`.split("\x0").reject do |f|
-    f.match(%r{^(test|spec|features)/})
-  end
+  spec.files = Dir['lib/**/*', 'Rakefile', 'README.md']
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']

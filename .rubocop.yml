@@ -15,6 +15,7 @@ Metrics/BlockLength:
   - 'Rakefile'
   - '**/*.rake'
   - 'spec/**/*.rb'
+  - canonical-header.gemspec
 
 Style/FileName:
   Exclude:
@@ -25,10 +26,9 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 AllCops:
-  TargetRailsVersion: 5.1 
+  TargetRailsVersion: 5.1
   TargetRubyVersion: 2.4
   Include:
     - '**/Rakefile'
   Exclude:
     - 'bin/**/*'
-

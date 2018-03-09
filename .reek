@@ -1,0 +1,14 @@
+---
+Attribute:
+  enabled: false
+NilCheck:
+  enabled: false
+"lib/canonical":
+  IrresponsibleModule:
+    enabled: false
+  NestedIterators:
+    max_allowed_nesting: 2
+  UnusedPrivateMethod:
+    enabled: false
+  InstanceVariableAssumption:
+    enabled: false

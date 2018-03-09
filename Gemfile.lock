@@ -78,8 +78,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (~> 1.16)
-  rack-canonical-header!
   mdl
+  rack-canonical-header!
   rake (~> 10.0)
   reek
   rspec (~> 3.0)

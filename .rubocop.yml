@@ -21,13 +21,14 @@ Style/FileName:
   Exclude:
   - 'Gemfile'
   - 'canonical-header.gemspec'
+  - lib/canonical-header.rb
 
 Style/FrozenStringLiteralComment:
   Enabled: false
 
 AllCops:
   TargetRailsVersion: 5.1
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 2.1
   Include:
     - '**/Rakefile'
   Exclude:

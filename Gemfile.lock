@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    canonical-header (0.1.1)
+    canonical-header (0.1.21)
 
 GEM
   remote: https://rubygems.org/
@@ -28,9 +28,9 @@ GEM
       mixlib-cli (~> 1.7, >= 1.7.0)
       mixlib-config (~> 2.2, >= 2.2.1)
     mixlib-cli (1.7.0)
-    mixlib-config (2.2.4)
+    mixlib-config (2.2.5)
     parallel (1.12.1)
-    parser (2.5.0.2)
+    parser (2.5.0.3)
       ast (~> 2.4.0)
     powerpack (0.1.1)
     rainbow (3.0.0)

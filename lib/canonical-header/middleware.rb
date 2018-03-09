@@ -24,5 +24,4 @@ module Canonical
       @headers['Content-Type'] =~ /html/
     end
   end
-
 end

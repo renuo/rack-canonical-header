@@ -1,4 +1,4 @@
-# Canonical::Middleware
+# rack-canonical-header
 
 Inserts a canonical url with a predefined host to prevent
 search engines from crawling domains like `herokuapp.com`
@@ -21,8 +21,11 @@ gem 'rack-canonical-header'
 
 And then execute `bundle install`
 
+
 ## Usage
 
 Update your application config file and set the `CANONICAL_HOST` env variable
 
-
+### Non-Rails frameworks
+If you're using a framework which uses Rack (like Hanami)
+you have to require and insert the middleware `Canonical::Middleware` manually into the rack stack.

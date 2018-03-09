@@ -6,8 +6,8 @@ search engines from crawling domains like `herokuapp.com`
 ## Setup
 
 ```
-git clone git@github.com:renuo/canonical-header.git
-cd canonical-header
+git clone git@github.com:renuo/rack-canonical-header.git
+cd rack-canonical-header
 bin/setup
 ```
 
@@ -16,7 +16,7 @@ bin/setup
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'canonical-header'
+gem 'rack-canonical-header'
 ```
 
 And then execute `bundle install`

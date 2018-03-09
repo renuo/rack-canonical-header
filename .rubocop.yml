@@ -15,13 +15,13 @@ Metrics/BlockLength:
   - 'Rakefile'
   - '**/*.rake'
   - 'spec/**/*.rb'
-  - canonical-header.gemspec
+  - rack-canonical-header.gemspec
 
 Style/FileName:
   Exclude:
   - 'Gemfile'
-  - 'canonical-header.gemspec'
-  - lib/canonical-header.rb
+  - 'rack-canonical-header.gemspec'
+  - lib/rack-canonical-header.rb
 
 Style/FrozenStringLiteralComment:
   Enabled: false

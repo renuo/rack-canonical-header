@@ -1,16 +1,14 @@
 $LOAD_PATH.push File.expand_path('lib', __dir__)
-require 'canonical-header/version'
-
-puts 'Canonical gemspec'
+require 'rack-canonical-header/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'canonical-header'
+  spec.name          = 'rack-canonical-header'
   spec.version       = Canonical::VERSION
   spec.authors       = ['Lukas Bischof']
   spec.email         = ['lukas.bischof@renuo.ch']
   spec.summary       = 'A gem that inserts a canonical http header'
-  spec.description   = 'A canonical URL tag for better SEO'
-  spec.homepage      = 'http://renuo.ch'
+  spec.description   = 'A canonical URL tag for better SEO and to prevent search engines from crawling different hosts'
+  spec.homepage      = 'https://renuo.ch'
 
   spec.files = Dir['lib/**/*', 'Rakefile', 'README.md']
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }

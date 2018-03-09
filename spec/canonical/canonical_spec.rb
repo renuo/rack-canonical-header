@@ -1,4 +1,4 @@
-require 'canonical-header/middleware'
+require 'rack-canonical-header/middleware'
 
 RSpec.describe Canonical::Middleware do
   let(:content_type) { 'html' }

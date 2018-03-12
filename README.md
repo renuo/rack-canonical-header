@@ -23,7 +23,7 @@ And then execute `bundle install`
 
 ## Usage
 
-Update your application config file and set the `CANONICAL_HOST` env variable
+Set the `CANONICAL_HOST` env variable
 
 ### Non-Rails frameworks
 

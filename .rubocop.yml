@@ -17,7 +17,7 @@ Metrics/BlockLength:
   - 'spec/**/*.rb'
   - rack-canonical-header.gemspec
 
-Style/FileName:
+Naming/FileName:
   Exclude:
   - 'Gemfile'
   - 'rack-canonical-header.gemspec'

@@ -20,6 +20,8 @@ module Canonical
       "<#{canonical}>; rel=\"canonical\""
     end
 
+    private
+
     def html?
       @headers['Content-Type'] =~ /html/
     end

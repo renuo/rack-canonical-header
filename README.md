@@ -23,10 +23,26 @@ And then execute `bundle install`
 
 ## Usage
 
-Set the `CANONICAL_HOST` env variable
+Set the `CANONICAL_HOST` env variable to the desired host
+(i.e. set it to the domain of your website like `CANONICAL_HOST=example.com`)
 
 ### Non-Rails frameworks
 
 If you're using a framework which uses Rack (like Hanami)
 you have to require and insert the middleware
 `Canonical::Middleware` manually into the rack stack.
+
+For example:
+
+```ruby
+require 'rack/auth/basic'
+require 'rack-canonical-header'
+
+module Web
+  class Application < Hanami::Application
+    configure do
+      middleware.use Canonical::Middleware
+    end
+  end
+end
+```

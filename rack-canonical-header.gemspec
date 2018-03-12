@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['lukas.bischof@renuo.ch']
   spec.summary       = 'A gem that inserts a canonical http header'
   spec.description   = 'A canonical URL tag for better SEO and to prevent search engines from crawling different hosts'
-  spec.homepage      = 'https://renuo.ch'
+  s.homepage         = "https://github.com/renuo/rack-canonical-header"
 
   spec.files = Dir['lib/**/*', 'Rakefile', 'README.md']
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }

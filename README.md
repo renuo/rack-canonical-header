@@ -26,6 +26,15 @@ And then execute `bundle install`
 Set the `CANONICAL_HOST` env variable to the desired host
 (i.e. set it to the domain of your website like `CANONICAL_HOST=example.com`)
 
+The gem will inject a header of the format
+`Link: <http[s]://CANONICAL_HOST[/path]>; rel=canonical` as soon as the env is present.
+The path and the scheme will be replaced
+with what was requested on the original domain.
+
+Note that the gem does *no* redirects.
+Therefore, your non-canonical urls will still work if you access them directly.
+However, search engines will not list them.
+
 ### Non-Rails frameworks
 
 If you're using a framework which uses Rack (like Hanami)

@@ -1,3 +1,3 @@
 module Canonical
-  VERSION = '0.1.21'.freeze
+  VERSION = '1.0.0'.freeze
 end

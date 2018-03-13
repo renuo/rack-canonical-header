@@ -8,7 +8,7 @@ RSpec.describe Canonical::Middleware do
   let(:env_args) do
     {
       'rack.url_scheme' => url_scheme,
-      'REQUEST_URI' => '/test'
+      'ORIGINAL_FULLPATH' => '/test'
     }
   end
 

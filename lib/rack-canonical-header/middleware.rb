@@ -16,7 +16,8 @@ module Canonical
     end
 
     def self.canonical_tag(env, canonical_host)
-      canonical = "#{env['rack.url_scheme']}://#{canonical_host}#{env['ORIGINAL_FULLPATH']}"
+      url_scheme = env['HTTP_X_FORWARDED_PROTO'] || env['rack.url_scheme']
+      canonical = "#{url_scheme}://#{canonical_host}#{env['ORIGINAL_FULLPATH']}"
       "<#{canonical}>; rel=\"canonical\""
     end
 

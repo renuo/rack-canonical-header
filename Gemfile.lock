@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    rack-canonical-header (1.0.2)
+    rack-canonical-header (1.0.3)
 
 GEM
   remote: https://rubygems.org/

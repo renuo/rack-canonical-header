@@ -66,4 +66,4 @@ The gem is available as open source under the terms of the [MIT License](LICENSE
 
 ## Code of Conduct
 
-Everyone interacting in the Rack Canonical Headers project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](CODE_OF_CONDUCT.md).
+For our community standards, please review our [Code of Conduct](CODE_OF_CONDUCT.md). We encourage all contributors to adhere to these guidelines to maintain a respectful and inclusive environment.

@@ -55,3 +55,15 @@ module Web
   end
 end
 ```
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/renuo/rack-canonical-header. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](CODE_OF_CONDUCT.md).
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](LICENSE).
+
+## Code of Conduct
+
+For our community standards, please review our [Code of Conduct](CODE_OF_CONDUCT.md). We encourage all contributors to adhere to these guidelines to maintain a respectful and inclusive environment.
